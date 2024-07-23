@@ -13,7 +13,7 @@ d3.json('https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojs
         return magnitude * 4;
     }
 
-    // Function to determine marker color based on depth
+    // Function to determines marker color based on depth
     function markerColor(depth) {
         if (depth > 90) return "#ff5f65";
         else if (depth > 70) return "#fca35d";
